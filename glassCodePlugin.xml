@@ -1,0 +1,7 @@
+<application>
+  <component name="glasscode.GlassCodeStorage">
+    <option name="blurType" value="2" />
+    <option name="cudaEnabled" value="false" />
+    <option name="opacityLevel" value="20" />
+  </component>
+</application>

@@ -1,0 +1,8 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="QuickChangeScheme" />
+  <action id="Terminal.SwitchFocusToEditor" />
+</keymap>

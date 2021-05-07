@@ -1,0 +1,104 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="arr@userDefined" key=".arr" provider="builtin.ts" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="Array&lt;$EXPR$&gt;$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="castas@userDefined" key=".castas" provider="builtin.ts" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="($EXPR$ as _$END$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="prom@userDefined" key=".prom" provider="builtin.ts" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="Promise&lt;$EXPR$&gt;$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="elsef@userDefined" key=".elsef" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if(!$EXPR$) $END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.lang.javascript.template.postfix.JSNotNullStatementPostfixTemplate#.notnull" key=".notnull" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSNotNullStatementPostfixTemplate#.notnull" />
+    <template id="foreach@userDefined" key=".foreach" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$.forEach(_ =&gt; _$END$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="err@userDefined" key=".err" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="console.error($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="jsons@userDefined" key=".jsons" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="JSON.stringify($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="d@userDefined" key=".d" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.lang.javascript.template.postfix.JSReturnStatementPostfixTemplate#.return" key=".return" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSReturnStatementPostfixTemplate#.return" />
+    <template id="or@userDefined" key=".or" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="_$END$ || $EXPR$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="nnull@userDefined" key=".nnull" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if($EXPR$ !== null) {&#10;    $END$&#10;}" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="warn@userDefined" key=".warn" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="console.warn($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="destr@userDefined" key=".destr" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="const {$END$} = $EXPR$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ll@userDefined" key=".ll" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="console.log(`$EXPR$: ${$EXPR$}`)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="w@userDefined" key=".w" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$END$$EXPR$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="ret@userDefined" key=".ret" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="return $EXPR$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="newins@userDefined" key=".newins" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="const _$END$ = new $EXPR$()" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="const@userDefined" key=".const" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="const _$END$ = $EXPR$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="p@userDefined" key=".p" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="($EXPR$)$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.lang.javascript.template.postfix.JSIntroduceConstPostfixTemplate#.const" key=".co" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSIntroduceConstPostfixTemplate#.const" />
+    <template id="iff@userDefined" key=".iff" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="if ($EXPR$) $END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="l@userDefined" key=".l" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="console.log($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="com.intellij.lang.javascript.template.postfix.JSParenthesizedPostfixTemplate#.par" key=".par" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSParenthesizedPostfixTemplate#.par" />
+    <template id="pp@userDefined" key=".pp" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$END$($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="new@userDefined" key=".new" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="new $EXPR$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="f@userDefined" key=".f" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$END$($EXPR$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="and@userDefined" key=".and" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="_$END$&amp;&amp;$EXPR$" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
